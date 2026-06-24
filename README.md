@@ -44,25 +44,7 @@ cd nama-repo
 pip install -r requirements.txt
 ```
 
-### 3. Siapkan data
-
-Unduh dataset dari [bi.go.id/hargapangan](https://www.bi.go.id/hargapangan) dan letakkan semua file CSV di folder `data/` dengan struktur:
-
-```
-data/
-├── komoditas_bawang_merah_2022_2026.csv
-├── komoditas_bawang_putih_2022_2026.csv
-├── komoditas_beras_2022_2026.csv
-├── komoditas_cabai_merah_2022_2026.csv
-├── komoditas_cabai_rawit_2022_2026.csv
-├── komoditas_daging_ayam_2022_2026.csv
-├── komoditas_daging_sapi_2022_2026.csv
-├── komoditas_gula_pasir_2022_2026.csv
-├── komoditas_minyak_goreng_2022_2026.csv
-└── komoditas_telur_ayam_2022_2026.csv
-```
-
-### 4. Jalankan notebook
+### 3. Jalankan notebook
 
 ```bash
 jupyter notebook analisis_harga_pangan.ipynb
@@ -80,4 +62,4 @@ atau buka langsung di Google Colab.
 
 ## Sumber Data
 
-Data harga pangan bersumber dari **Pusat Informasi Harga Pangan Strategis (PIHPS)** Bank Indonesia, dapat diakses di [https://www.bi.go.id/hargapangan](https://www.bi.go.id/hargapangan).
+Data harga pangan bersumber dari **Pusat Informasi Harga Pangan Strategis (PIHPS)** Bank Indonesia, [https://www.bi.go.id/hargapangan](https://www.bi.go.id/hargapangan).
